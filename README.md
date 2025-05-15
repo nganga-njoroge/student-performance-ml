@@ -1,24 +1,33 @@
-# 🎓 Student Performance Predictor
+# 🎓 Student Performance ML
 
-A simple machine learning project that predicts student final math grades (`G3`) using demographic and behavioral features from the UCI Student Performance dataset.
+Predicting final math grades (`G3`) of students using exploratory data analysis and regression models built with TensorFlow.
+
+## 📂 Project Overview
+
+This project walks through:
+- EDA on the UCI Student Performance dataset
+- Feature engineering and preprocessing
+- Training a feedforward neural network
+- Evaluating model performance (MSE, R²)
+- Saving the trained model
 
 ## 📊 Dataset
 
-Source: [UCI Student Performance Data](https://archive.ics.uci.edu/ml/datasets/Student+Performance)  
-File used: `student-mat.csv`
+- Source: [UCI Student Performance Data](https://archive.ics.uci.edu/ml/datasets/Student+Performance)
+- File used: `student-mat.csv`
 
-## 🎯 Project Goals
-
-- Explore the dataset to understand what influences student grades
-- Build a regression model using TensorFlow to predict final grade
-- Visualize relationships and model performance
-- Showcase clean code and insights on GitHub
-
-## 🛠️ Tech Stack
+## 🛠 Tools & Libraries
 
 - Python, Pandas, Matplotlib, Seaborn
-- Scikit-learn
-- TensorFlow / Keras
+- Scikit-learn (preprocessing & evaluation)
+- TensorFlow / Keras (regression model)
 
-## 🧪 Project Structure
+## 📈 Results
 
+- Test MSE: ~4.54
+- R² Score: ~0.78
+
+### 📌 Example Output:
+![Predictions vs Actuals](./outputs/prediction_plot.png)
+
+## 📁 Project Structure
